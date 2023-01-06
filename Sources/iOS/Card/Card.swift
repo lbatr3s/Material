@@ -249,7 +249,7 @@ open class MaterialCard: PulseView {
   }
 }
 
-extension Card {
+extension MaterialCard {
   /// Prepares the container.
   fileprivate func prepareContainer() {
     container.clipsToBounds = true
