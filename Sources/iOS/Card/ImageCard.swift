@@ -25,7 +25,7 @@
 
 import UIKit
 
-open class ImageCard: Card {
+open class ImageCard: MaterialCard {
   /**
    A Display value to indicate whether or not to
    display the imageView to the full view

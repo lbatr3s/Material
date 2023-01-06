@@ -25,7 +25,7 @@
 
 import UIKit
 
-open class Card: PulseView {
+open class MaterialCard: PulseView {
   /// A container view for subviews.
   public let container = UIView()
   

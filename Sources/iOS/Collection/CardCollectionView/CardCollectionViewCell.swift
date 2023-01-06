@@ -27,7 +27,7 @@ import UIKit
 
 open class CardCollectionViewCell: CollectionViewCell {
   /// An optional reference to the card being displayed in the cell.
-  open var card: Card? {
+  open var card: MaterialCard? {
     didSet {
       oldValue?.removeFromSuperview()
       
