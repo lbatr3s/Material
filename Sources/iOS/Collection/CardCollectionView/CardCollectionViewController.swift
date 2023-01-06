@@ -91,7 +91,7 @@ extension CardCollectionViewController: CollectionViewDataSource {
   open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CardCollectionViewCell", for: indexPath) as! CardCollectionViewCell
     
-    guard let card = dataSourceItems[indexPath.item].data as? Card else {
+    guard let card = dataSourceItems[indexPath.item].data as? MaterialCard else {
       return cell
     }
     
